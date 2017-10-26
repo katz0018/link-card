@@ -13,6 +13,7 @@ html {
   border: 3px solid #9a816d;
   border-radius: 3px;
   padding:.5em;
+  width: 350px;
 }
 
 h1 {
@@ -31,9 +32,8 @@ ul li {
   list-style: none;
 }
 
-.second-list {
-  display: inline;
-  float: right;
+.list {
+  border-bottom: 3px solid #9a816d;
 }
 
 a {

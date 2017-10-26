@@ -6,3 +6,39 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.link-card {
+  display: inline-block;
+  background: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+  padding:.5em;
+}
+
+h1 {
+  font-family: 'Dosis';
+}
+
+p {
+  font-family: 'georgia';
+}
+
+.title {
+  margin:0;
+  border-bottom: 3px solid #9a816d;
+}
+
+
+a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}

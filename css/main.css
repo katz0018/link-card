@@ -1,46 +1,45 @@
 html {
   box-sizing: border-box;
   margin: 0;
+  line-height: 1.5em;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f0eee8;
+}
+
 .link-card {
+  margin: 0;
   display: block;
   background: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 3px;
-  padding:.5em;
+  padding: 1em;
   width: 350px;
   text-decoration: none;
   color: black;
   text-align: center;
 }
 
-h1 {
-  font-family: 'Dosis';
+.link-card h2 {
+  font-family: Dosis;
   color: #512200;
   text-align: left;
+  margin: 0 0 1rem;
 }
 
 p {
-  font-family: 'georgia';
+  font-family: Georgia;
   color: #512200;
   text-align: left;
+  margin: 0 0 1em;
 }
 
-.title {
-  margin:0;
-  border-bottom: 3px solid #9a816d;
-}
-
-.list {
-  border-bottom: 3px solid #9a816d;
-}
-
-.learn-more {
+.btn {
   display: inline-block;
   padding: .5em .75em;
   background-color: #785439;
@@ -51,8 +50,14 @@ p {
 }
 
 .link-card:hover {
-  background-color: #333;
+  background-color: #cabdb2;
   color: #fff;
+}
+
+dl {
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  text-align: left;
 }
 
 dt,
@@ -64,10 +69,10 @@ dd {
 
 dd {
   margin: 0;
-  width: 40%;
+  width: 45%;
   font-style: italic;
 }
 
 dt {
-  width: 40%;
+  width: 45%;
 }
